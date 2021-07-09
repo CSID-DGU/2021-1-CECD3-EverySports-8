@@ -1,0 +1,4 @@
+torchsummary
+opencv-python
+matplotlib
+pycocotools
