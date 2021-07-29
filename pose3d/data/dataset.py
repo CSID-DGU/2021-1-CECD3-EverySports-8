@@ -124,7 +124,7 @@ def trans_img_to_tensor(img_patch):
     pixel_mean = np.array(cfg.pixel_mean)
     pixel_std = np.array(cfg.pixel_std)
     img_patch = (img_patch - pixel_mean) / pixel_std
-    img_patch = tf.convert_to_tensor(img_patch)
+    # img_patch = tf.convert_to_tensor(img_patch)
     return img_patch
     
 
